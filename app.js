@@ -1,4 +1,4 @@
 const express = require('express');
 const app = express();
-app.get('/status',(req,res) => res.json({ status: 'OK' }))
+app.get('/status',(req,res) => res.json({ status: 'Updated' }))
 app.listen(3000,() => console.log('Running on 3000'));
